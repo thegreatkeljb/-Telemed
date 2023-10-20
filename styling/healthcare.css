@@ -1,0 +1,9 @@
+.navbar {
+    height: 100px;
+    background: linear-gradient(to right, #efefef, #ffffff);
+}
+
+#appointments,
+#req_appoints {
+    padding-top: 40px;
+}
