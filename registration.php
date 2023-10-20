@@ -9,7 +9,7 @@
     <title>Telemed Registration</title>
 </head>
 <body>
-<section id="registration">
+<section id="main">
         <div class="container">
             <div class="row justify-content-center custom-no-gutters">
                 <div class="col-5">
