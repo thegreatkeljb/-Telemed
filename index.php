@@ -31,5 +31,7 @@
                 </div>
             </div>
         </div>
-    </section>  
+    </section>
+    <script src="scripts/javascript/login.js"></script>
+</body>  
 </html>

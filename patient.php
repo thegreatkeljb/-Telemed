@@ -19,40 +19,39 @@
                     </button>
                 </div>
                 <div class="users">
-                    <a class="btn btn-light">Logout</a>
+                    <a class="btn btn-light" id="logout">Logout</a>
                 </div> 
             </div>
         </nav>
     </header>
     <main>
-        <section id="appointments">
+        <section id="appointment">
             <div class="container">
                 <div class="row">
                     <h5>Your Appointment Schedule:</h5>
-                    <div class="appointments-sched" id="appointments">
-                    <!-- SCHED LOGIC     -->
+                    <div class="appointments-sched py-1" id="appointments">
                     </div>    
                 </div>    
                 <h5>Schedule Appointment</h5>
                 <form class="home_form mt-4">
                     <div class="form-select">
                         <select class="form-control" id="hcprovider">
-                            <option>HEALTH CARE PROVIDER</option>
                             
                         </select>
                     </div>
                     <div class="form-floating mt-4">
-                        <input type="date" class="form-control" id="uname" placeholder="Name">
-                        <label name="uname" class="form-label">USERNAME</label>
+                        <input type="date" class="form-control" id="dateappt" placeholder="Name">
+                        <label name="uname" class="form-label">DATE OF APPOINTMENT</label>
                     </div>
                     <div class="form-group mt-4">
                         <label name="password" class="form-label"><h6>Message:</h6></label>
-                        <textarea class="form-control" id="message" rows="5">Describe your condition</textarea>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Describe your condition."></textarea>
                     </div>
-                    <button class="btn btn-primary mt-4" id="send">SUBMIT</button>
+                    <button class="btn btn-primary mt-4" id="submit">SUBMIT</button>
                 </form>
             </div>
         </section>
     </main>
+    <script src="scripts/javascript/patient.js"></script>
 </body>
 </html>

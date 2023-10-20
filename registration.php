@@ -34,9 +34,9 @@
                             </div>
                             <div class="form-group">
                                 <select class="form-control" id="userpriv">
-                                    <option>SELECT PRIVILEGE</option> <!-- THIS SHOULD BE INVALID REGISTRATION -->
+                                    <option selected hidden>SELECT PRIVILEGE</option> <!-- THIS SHOULD BE INVALID REGISTRATION -->
                                     <option>PATIENT</option> <!-- IF USER IS PATIENT -->
-                                    <option>DOCTOR</option> <!-- IF USER IS DOCTOR -->
+                                    <option>HEALTHCARE PROVIDER</option> <!-- IF USER IS DOCTOR -->
                                 </select>
                             </div>
                             <button class="btn btn-primary" id="regbutton">REGISTER</button> <!-- BUTTON FOR REGISTRATION -->
@@ -47,5 +47,6 @@
             </div>
         </div>
     </section>
+    <script src="scripts/javascript/registration.js"></script>
 </body>
 </html>
