@@ -26,6 +26,7 @@
     </header>
     <main>
         <section id="appointment">
+        <section id="appointment">
             <div class="container">
                 <div class="row">
                     <h5>Your Appointment Schedule:</h5>
@@ -41,7 +42,7 @@
                     </div>
                     <div class="form-floating mt-4">
                         <input type="date" class="form-control" id="dateappt" placeholder="Name">
-                        <label name="uname" class="form-label">DATE OF APPOINTMENT</label>
+                        <label name="date" class="form-label">DATE OF APPOINTMENT</label>
                     </div>
                     <div class="form-group mt-4">
                         <label name="password" class="form-label"><h6>Message:</h6></label>
@@ -50,6 +51,14 @@
                     <button class="btn btn-primary mt-4" id="submit">SUBMIT</button>
                 </form>
             </div>
+        </section>
+        <section id="overlay">
+            <div class="container">
+                <div class="row">
+                    sadsadasdas
+                </div>
+            </div>
+
         </section>
     </main>
     <script src="scripts/javascript/patient.js"></script>
