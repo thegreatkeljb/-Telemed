@@ -1,0 +1,16 @@
+.navbar {
+    height: 100px;
+    background: linear-gradient(to right, #efefef, #ffffff);
+}
+
+#appointments {
+    padding-top: 40px;
+}
+
+.patient-sched {
+    padding: 0 40px;
+}
+
+.input-group-append {
+    cursor: pointer;
+}
